@@ -1,0 +1,480 @@
+/*Index*/
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.headerlogo > img {
+    height: 60px;
+    width: 60px;
+}
+
+#headername {
+    font-size: 40px;
+    font-family: headerfont;
+    text-shadow: 5px, 5px, 5px, #a88070;
+    color: #6d3e16;
+    padding: 15px;
+    margin: 8px, 0px;
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url("../fonts/Lobster_1.3.otf");
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, #9c591e, #723a05);
+    background: -o-linear-gradient(right, #9c591e, #723a05);
+    background: -moz-linear-gradient(right, #9c591e, #723a05);
+    background: linear-gradient(to right, #9c591e, #723a05);
+}
+
+.navlink    {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color:white;
+    text-decoration: none;
+}
+
+.navlink:active {
+}
+.navlink > img {
+    height: 16px;
+}
+
+#welcomeimage {
+    float: left;
+    width: 700px;
+}
+
+#furnitureofthemonth {
+    float: right;
+    width: 290px;
+}
+
+#kayu1 {
+    float: right;
+    width: 290px;   
+}
+
+#welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#welcometext > header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events {
+    float:right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events > header {
+    margin-left: 10px;
+    color: #9c591e;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events > ul {
+    list-style: none;
+}
+#events > ul > li {
+    margin-bottom: 3px;
+}
+
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#bestsellers > header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.furniturebestsellers {
+    float: left;
+}
+
+.furniturebestsellers > header {
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.accessoriesbestsellers {
+    clear: both;
+}
+
+.accessoriesbestsellers > header {
+    height: 30px;
+    line-height: 30px;
+    background-color: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.productarticle  {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+.productarticlename {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #3d2510;
+    color: white;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+
+.smalltext{
+    font-size: 10px;
+}
+
+
+/* */
+
+.furnituredetails {
+    float: left;
+    width: 1000px;
+}
+
+.productarticlelargeimage {
+    width: 200px;
+    height: 300px;
+}
+
+.productarticlelargefigure {
+    float: left;
+    margin: 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+.column img {
+    width: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover{
+    opacity: 1;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.productarticlecontent {
+    width: 75%;
+    float: right;
+}
+
+.productarticledescription {
+    word-wrap: none;
+}
+
+.productarticleprice {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #9c591e;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px ;
+    -webkit-border-radius : 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba (0,0,0, 75);
+    -moz-box-shadow: e 4px rgba(0,0,0, 75) ;
+    box-shadow: e 4px rgba(0,0, 0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 175px;
+}
+
+.button:hover, .addtocartbutton:focus {
+    background-color: #512cea;
+    -webkit-box-shadow: e lpx rgba(0,0, 0, .75);
+    -moz-box-shadow: e e 1px rgba(0,0,0,.75);
+    box-shadow: 0 0 1px rgba(0,0, 0, 75);
+}
+
+#contact{
+    padding: 0.5px;
+    background-color:  #3d2510;
+    width: 100%;
+    
+}
+#contact h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: .2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.image10 {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+}
+
+.image20 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;.button{
+    float: left;
+    width: 100px;
+    position:relative; s
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+
+  top: 40px;
+  left: 17px;
+  text-align: center;
+}
+
+.image10:hover .image20 {
+  opacity: 0.3;
+}
+
+.image10:hover .middle {
+  opacity: 0.5;
+}
+
+.image10 .text a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  
+}
+.sosmed{
+    padding-bottom: 15%;
+}
+.footer{
+    padding: 2px;
+    background-color: #3d2510;
+}
+.footer p{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: .3em
+}
+.footer img{
+    float: left;
+    margin-left: 50px;
+}
+
+
+/*Collection*/
+.blockheader {
+    font-size: 30px;
+    font-family: headerfont;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.productarticlewide {
+    width: 100%;
+    float: left;
+}
+
+.productarticlewidethumbnail{
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin : 20px;
+}
+
+.productarticlewidecontent {
+    width: 80%;
+    float: right;
+}
+
+.productarticlewidedescription {
+    text-wrap: normal;
+}
+
+.productarticlewidename {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.productarticlewideprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.allfurnitures {
+    float: left;
+    width: 750px;
+}
+
+.shoppingcart {
+    float: left;
+    width: 175px;    
+}
+
+
+/*Checkout Page*/
+.textlabel{
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+    width: 250px;
+    padding: 2px 5px;
+    float: left;
+}
+.textinput{
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888888;
+}
+fieldset{
+    padding: 0px;
+    border: none;
+}
+fieldset > div{
+    border: 2px solid #888888;
+}
+.submitbutton {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #888888;
+    color-adjust: black;
+}
+.searchcart{
+    float: right; 
+}
+
+/*ContactUs page styles*/
+.maptostore {
+    float: left;
+    width: 1000px;
+}
+
+#map {
+    float: left;
+    width: 65%;
+    height: 600px;
+    margin: 25px;
+}
+
+#driving-directions {
+    float: left;
+}

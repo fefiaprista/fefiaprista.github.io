@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome To Wood Premium Furniture Store!</title>
+    <link rel="stylesheet" href="Styles/Layout.css" type="text/css">
+    <script src="scripts/productdetails.js" ></script>
+</head>
+<body>
+<header>
+<div>
+    <a class="headerlogo" href="index.html">
+        <img src="images/logo.png" />
+    </a>
+    <span id="headername"> Woood Premium Furniture</span>
+</div>
+   <nav class="backgroundgradient">
+       <ul>
+           <li><a class="navlink" href="index.html">Home</a></li>
+           <li><a class="navlink" href="collection.html">Collection</a></li>
+           <li><a class="navlink" href="contactus.html">Contact us</a></li>
+           <li><a class="navlink" href="aboutus.html">About us</a></li>
+           <li><a class="navlink" href="checkout.html">Cart
+               <img src="images/cart.png"></a></li> 
+       </ul>
+   </nav>
+
+   <div id="welcomeimage">
+    <img src="images/furnitureheader.png">
+</div>
+<div id="furnitureofthemonth">
+    <img src="images/cotm.jpg">
+</div>
+
+       <section class="furniture details">
+           <header class="blockheader">
+               <span>Furniture </span>
+           </header>
+           <figure class="productarticlefigure">
+               <img id="expandedImg" class="productarticleimage" src="images/furniture/row_dt001_0.jpg" >
+                <figcaption>Furniture 1</figcaption>
+            <div class="row">
+                <div class="coloumn"  >
+                <img  src="images/furniture/row_dt001_0.jpg" onclick="openImg(this);">
+                </div>
+                <div class="coloumn">
+                <img src="images/furniture/row_dt001_1.jpg" onclick="openImg(this);">
+                </div>
+                <div class="coloumn">
+                <img src="images/furniture/row_dt001_2.jpg" onclick="openImg(this);">
+                </div>
+            </div>
+            </figure>
+            <div class="productarticlecontent">
+                <p class="productarticdescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel beatae, magni excepturi repudiandae consectetur ea veniam culpa hic ipsum officiis error enim molestias quis esse. Officiis doloremque alias tempora.</p>
+                <p class="productarticleprice">$120</p>
+                <div class="addtocartbutton">
+                    Add to cart
+                </div>
+                <br>
+            </div>
+       </section>
+
+       <footer>
+           <p>Our Address is <address>Palembang, Politeknik Negeri Sriwijaya</address></p>
+           <p class="textcontent">All site content is copyright &copy;
+               <a class="mainlink" href="https//www.woodfurniturestore.com">
+                Wood Premium Furniture Store
+            </a>
+           </p>
+           <p class="smalltext">
+               This page was generated on <time>09:25:04.123</time>
+           </p>
+       </footer>
+
+   </header>
+</body>
+</html>

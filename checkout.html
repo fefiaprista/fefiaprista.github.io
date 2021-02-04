@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Welcome To Wood Premium Furniture Store!</title>
+        <link rel="stylesheet" href="Styles/Layout.css" type="text/css">
+    </head>
+<body >
+   <header>
+    <div>
+        <a class="headerlogo" href="index.html">
+            <img src="images/logo.png" />
+        </a>
+        <span id="headername"> Woood Premium Furniture</span>
+    </div>
+
+    <div class="searchcart"> 
+        <form>               
+            <input class="search" type="search" placeholder="Search Our Store">               
+            <input class="button" type="submit" value="Search">       
+            </form>
+        </div>
+<br>
+
+       <nav class="backgroundgradient">
+           <ul>
+               <li><a class="navlink" href="index.html">Home</a></li>
+               <li><a class="navlink" href="collection.html">Collection</a></li>
+               <li><a class="navlink" href="contactus.html">Contact us</a></li>
+               <li><a class="navlink" href="aboutus.html">About us</a></li>
+               <li><a class="navlink" href="checkout.html">Cart
+                   <img src="images/cart.png"></a></li> 
+           </ul>
+       </nav>
+
+       <div id="welcomeimage">
+        <img src="images/furnitureheader2.png">
+    </div>
+    <div id="furnitureofthemonth">
+        <img src="images/cotm.jpg">
+    </div>
+
+
+    <section class="furnituredetails">
+    <header class="blockheader">
+        <span>Checkout</span>
+    </header>
+
+    <form id="mainform" action="#" method="post">
+       <fieldset class="box">
+       <legend>Your Details</legend>
+       <div>
+           <p>
+               <label class="textlabel" for="FirstNameInput">First Name</label>
+               <input id="firstNameInput" name="FirstName" type="text" required="required" maxlength="30"
+               autofocus="autofocus"
+               placeholder="Enter your first name" class="textinput" >
+           </p>
+
+           <p>
+            <label class="textlabel" for="LastNameInput">Last Name</label>
+               <input id="LastNameInput" name="LastName" type="text" required="required" 
+               placeholder="Please Enter your last name" class="textinput" size="10" maxlength="50"/>
+           </p>
+
+           <p>
+            <label class="textlabel" for="emailInput">Email</label>
+               <input id="emailInput" name="Email" type="email" class="textinput" 
+               required="required" placeholder="Please Enter your email address">
+           </p>
+
+           <p>
+            <label class="textlabel" for="streetInput">Address</label>
+               <input id="streetInput" name="Street" type="text" class="textinput" 
+               required="required" placeholder="Please Enter your shipping address"/>
+           </p>
+
+           <p>
+            <label class="textlabel" for="phoneInput">Phone Number</label>
+               <input id="phoneInput" name="PhoneNumber" type="text" class="textinput" 
+               required="required" placeholder="Please Enter your phone number"/>
+           </p>
+
+           <p>
+               <label class="textlabel" for="remarkInput">Remarks</label>
+               <input id="remarkInput" name="PhoneNumber" type="text" class="textinput" 
+               required="required" placeholder="Please Enter any  extra you have here"/>
+           </p>
+        </div>
+        </fieldset>
+    </form>
+
+    <br>
+    <fieldset class="box">
+        <legend>Your Order</legend>
+        <div>
+            <p>
+                <label class="textlabel" for="deliveryDateInput">Requested Delivery Date</label>
+                <input id="deliveryDateInput" name="BirthDate" class="textinput" 
+                type="date" placeholder="Enter a date">
+            </p>
+        </div>
+    </fieldset>
+    </section>
+
+
+    <div id="shoppingcart">
+        <header class="blockheader"><span>Shopping Cart</span></header>
+        <ul></ul>
+        <section>
+            <button class="button">Empty Cart</button>
+    </section>
+    </div>
+    <br>
+    <button class="button submitbutton">Submit</button>
+
+       <footer>
+           <p>Our Address is <address>Palembang, Politeknik Negeri Sriwijaya</address></p>
+           <p class="textcontent">All site content is copyright &copy;
+               <a class="mainlink" href="https//www.woodfurniturestore.com">
+                Wood Premium Furniture Store
+            </a>
+           </p>
+           <p class="smalltext">
+               This page was generated on <time>09:25:04.123</time>
+           </p>
+       </footer>
+
+      
+</body>
+</html>
+
